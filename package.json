@@ -1,0 +1,12 @@
+{
+  "name": "tiny-docker-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:hanut/tiny-docker-app.git",
+  "author": "Hanut Singh Gusain <hanutsingh@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
