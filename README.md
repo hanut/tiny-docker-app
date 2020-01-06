@@ -9,6 +9,6 @@ following commands -
 
 ````
 # Build the container image
-docker image build -t tiny-app:latest
+docker image build -t tiny-app:latest .
 docker run -p 7389:7389 -e PORT=7389 -e CUSTOM_VAR1=hello -e CUSTOM_VAR2=world --name tiny-app tiny-app:latest
 ````
